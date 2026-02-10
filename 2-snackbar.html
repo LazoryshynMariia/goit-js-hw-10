@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BOYmIZxV.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="main-title">Snackbar</h1>
+        <form class="form">
+          <label class="form-label">
+            <span class="form-label-text">Delay (ms)</span>
+            <input
+              type="number"
+              name="delay"
+              class="form-input"
+              step="1000"
+              required
+            />
+          </label>
+
+          <fieldset class="form-fieldset">
+            <legend class="form-legend">State</legend>
+
+            <div class="form-radio-group">
+              <label class="form-radio-label">
+                <input
+                  type="radio"
+                  name="state"
+                  value="fulfilled"
+                  class="form-radio"
+                  required
+                />
+                <span>Fulfilled</span>
+              </label>
+
+              <label class="form-radio-label">
+                <input
+                  type="radio"
+                  name="state"
+                  value="rejected"
+                  class="form-radio"
+                  required
+                />
+                <span>Rejected</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="form-button">Create notification</button>
+        </form>
+        <a class="back-link" href="./index.html">Go back</a>
+      </div>
+    </main>
+
+  </body>
+</html>
